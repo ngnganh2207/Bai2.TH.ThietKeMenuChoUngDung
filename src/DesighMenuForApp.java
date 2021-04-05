@@ -20,7 +20,7 @@ public class DesighMenuForApp {
 //                System.out.println("****");
 //                System.out.println("***");
 //                System.out.println("**");
-//                System.out.println("*
+//                System.out.println("*);
                //cách vẽ #:
 //                for (int i=0;i<6;i++){
 //                    for (int j=6; j>i; j--){
@@ -29,24 +29,24 @@ public class DesighMenuForApp {
 //                    System.out.println("");
 //                }
                 //cách vẽ #:
-//                String result="";
-//                for(int i=1;i<=6;i++){
-//                    for(int j=6; j>=i;j--) {
-//                        result += "*";
-//                    }
-//                    result+="/n";
-//                }
-//                System.out.println(result);
+                String result="";
+                for(int i=1;i<=6;i++){
+                    for(int j=6; j>=i;j--) {
+                        result += "*";
+                    }
+                    result+="\n";
+                }
+                System.out.println(result);
                 break;
             }
             case 2:{
                 System.out.println("Draw the square");
-                System.out.println("******");
-                System.out.println("******");
-                System.out.println("******");
-                System.out.println("******");
-                System.out.println("******");
-                System.out.println("******");
+//                System.out.println("******");
+//                System.out.println("******");
+//                System.out.println("******");
+//                System.out.println("******");
+//                System.out.println("******");
+//                System.out.println("******");
                 //cách vẽ #:
                 for (int i=0;i<6;i++){
                     for (int j=6; j>0; j--){
